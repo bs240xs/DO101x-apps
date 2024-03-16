@@ -1,3 +1,4 @@
+"use strict"//strict interpreter mode
 console.log(9%8);
 console.log(16%8);
 console.log(2**3);
@@ -39,5 +40,18 @@ console.log(1972);
 console.log("Ilya Zhornitskiy(1972)");
 console.log("Ilya");console.log("Zhornitskiy");console.log("1972");
 console.log("Ilya "+"Zhornitskiy "+"1972");
+//declaring variables
+let height=180;
+let anotherheight=height;
+let weight;
+console.log(anotherheight);
+weight=70;
+console.log(weight);
+let greeting="Hello!";
+let count=100;
+console.log(greeting);
+greeting=greeting + count;
+console.log(greeting);
+
 
 
